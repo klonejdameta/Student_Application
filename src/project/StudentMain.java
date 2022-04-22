@@ -11,8 +11,9 @@ public class StudentMain {
     public static void main(String[] args) {
 
         boolean quit = false;
-        startPhone();
-        printActions();
+		startStudent();
+                printActions();
+     
         while (!quit) {
             System.out.println("\nEnter action: (6 to show available actions)");
             int action = scanner.nextInt();
@@ -167,7 +168,7 @@ public class StudentMain {
                 "is working: " + existingStudentRecord.getWorking());
     }
 
-    private static void startPhone() {
+    private static void startStudent() {
         System.out.println("Starting app...");
     }
 
