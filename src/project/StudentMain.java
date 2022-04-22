@@ -11,6 +11,7 @@ public class StudentMain {
     public static void main(String[] args) {
 
         boolean quit = false;
+
 		startStudent();
                 printActions();
      
